@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+
+/* global reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "DM Sans";
+}
+
+
+/* Authentication Page */
+
+/* signup container */
+.signup_home{
+    height: 51rem;;
+    padding-top: 27px;  
+}
+
+/* box_container */
+.box_container{
+    width: 658px;
+    height: 51rem;
+}
+
+/* box_buttons */
+.box_buttons{
+    width: 532px;
+    height: 578px;
+    margin-top: 7rem;
+}
+
+.boxButton_head h1{
+   
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 64px;
+}
+
+.boxButton_head p{
+   
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 32.55px;
+}
+
+.btn_1{
+   
+    width: 344px;
+    height: 56px;
+    padding: 16px 20px 16px 20px;
+    gap: 10px;
+    border-radius: 12px;
+    font-size: 20px;
+    border: 3px solid #165A0F;   
+    color: #165A0F;
+}
+
+.btn_1:hover{
+    background-color:#165A0F !important;
+    color: #fff;
+}
+
+.image1_form{
+    height: 51rem;
+}
+
+.image1_form img{
+    max-width: 39.4rem;
+    height: 100%;
+}
+
+
+
+
+/* Signup Page*/
+
+.form_field{
+    width: 551px;
+    height: 1,189px; 
+}
+
+.form_title h1{
+    font-size: 39px;
+    font-weight: 700;
+    line-height: 50.78px;
+}
+
+.form_title p{
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 32.55px;
+    text-align: center;
+    width: 480px;
+}
+
+.input_name{
+    width: 259px;
+    height: 64px;
+    padding: 11px 16px 11px 16px;
+    gap: 12px;
+    border-radius: 10px 10px 10px 10px;
+    border: 1px solid;
+}
+
+.input_field{
+    width: 534px;
+    height: 64px;
+    padding: 11px 16px 11px 16px;
+    gap: 12px;
+    border-radius: 10px 10px 10px 10px;
+    border: 1px solid;
+}
+
+.btn_2{
+    width: 534px;
+    gap: 0px !important;
+}
+
+.image2_form img{
+    height: 1200px;
+    max-width: 658px;
+}
+
+.image2_form{
+    height: 1200px;
+}
+
+
+/* login page */
+
+
+.login_header{
+    margin-top: 2.7rem;
+}
+
+.login_link{
+    color: #165A0F;
+}
+
+.image3_form{
+    
+    height: 46.8rem;
+}
+
+.image3_form img{
+     max-width: 39.4rem;
+     height: 100%;
+}
+
+/* FORGET PASSWORD */
+.image4_form{
+    height: 46.9rem;
+}
+
+.image4_form img{
+    max-width: 39.4rem;
+    height: 100%;
+}
+
+.fpassword_header{
+    margin-top: 10.5rem;
+}
+
+/* Reset password */
+.reset_header{
+    margin-top: 4rem;
+}
+
+/* Verification page */
+.box_verification{
+    width: 3rem;
+    width: 84px;
+    height: 76px;
+    padding: 16px 12px 16px 12px;
+    gap: 10px;
+    border-radius: 5px;
+}
+
+.verification_header{
+    margin-top: 7rem;
+}
+
+
+

@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+
+/* global reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "DM Sans";
+}
+
+
+/* Hero section */
+.hero-section{
+    background-image: url("../images/aa.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+   
+}
+
+.hero-tag{
+    padding-top: 238px;
+    font-size: 64px !important;
+    font-weight: 600;
+    line-height: 83.33px;
+}
+
+
+.search_bar{
+    width: 18px !important;
+    height: 40px;
+    padding: 5px 0px 0px 0px;
+    /* gap: 4px; */
+    border-radius: 4px;
+    border: 0.5px solid #999999;
+    color: #999999;
+    background-color: #165A0F;
+
+}
+
+
+.filter{
+    width: 107px;
+    height: 40px;
+    padding: 5px;
+    gap: 4px;
+    border-radius: 4px;
+    border: 0.5px solid #999999 !important;
+    color: #999999;
+}
+
+
+
+/* Hostel details/description */
+.image-container {
+    position: relative;
+  }
+  
+  .text-overlay {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+  
+  .verified-badge {
+    position: absolute;
+    top: 40px;
+    left: 10px;
+    background-image: url('verified-badge.png');
+  }
+  
+  .favorite-icon {
+    position: absolute;
+    top: 10px;
+    right: 50px;
+    background-image: url('favorite-icon.png');
+    
+  }
+
+
+
+  .listing_img{
+    width: 478px;
+    height: 309px;
+  }
+
+  .listing_description{
+    width: 394px;
+    height: 307px;
+  }
+
+  #hostel_name{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 27.04px;
+    text-align: left;
+  }
+
+  #hostel_description{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+  }
+
+  #room_no{
+    
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26.04px;
+      }
+
+  #hostel_description a{
+    padding-left: 0;
+    color: #165A0F;
+  }
+
+  .amenities{
+    border-left: 0.5px solid #949191  ;
+    width: 267px;
+    height: 309px;
+    margin-left: 0px;
+    padding-left: 0;
+    /* border: 0px 0px 0px 0.5px; */
+  }
+
+   h4{
+    /* padding-left: 0 !important; */
+  }
+
+  .li-amenites{
+    list-style: none;
+    padding-top: 13px;
+    text-align: left;
+    width: 257px;
+    align-items: start;
+    margin-left: 0px;
+    padding-left: 0px !important;
+  }
+
+  .list_item {
+    padding-left: 0;
+  }
+
+  .list_item li{
+    padding-left: 0;
+    text-align: 2rem;
+  }
+
+  
+
+  #hostel_description, #school_name{
+    text-align: left;
+  }
+
+  .amenities_btn{
+    width: 257px;
+    height: 42px;
+    padding: 12px 16px 12px 16px;
+    border-radius: 4px;
+    background-color: #165A0F;
+
+  }
+
