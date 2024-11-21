@@ -13,6 +13,12 @@ body{
 }
 
 
+.bg_color {
+    color:#165A0F;
+    font-weight: 700;
+    font-size: larger;
+}
+
 /* Authentication Page */
 
 /* signup container */
